@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tan.texttypeface.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="15sp"
+        android:text="Hello World ! "/>
+
+    <ImageView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="15sp"
+        android:text="中华人民共和国！"/>
+
+    <ImageView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1sp" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/tv_add"
+            android:text="大小 +"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_size"
+            android:gravity="center"
+            android:text="15sp"
+            android:textStyle="italic"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/tv_reduce"
+            android:text="大小 —"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <Button
+            android:id="@+id/tv_style1"
+            android:text="加粗"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/tv_style2"
+            android:text="斜体"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/tv_style3"
+            android:text="加粗倾斜"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/tv_style4"
+            android:text="还原"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Spinner>
+
+
+
+
+</LinearLayout>
